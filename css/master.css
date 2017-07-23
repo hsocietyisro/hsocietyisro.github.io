@@ -1,0 +1,89 @@
+body {
+  padding-top: 70px;
+  background: rgb(35, 40, 48);
+}
+
+.jumbotron {
+  background: rgb(35, 40, 48);
+  border: 2px solid rgb(126, 129, 133);
+  color: rgb(126, 129, 133);
+}
+
+#lcms {
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: #fcfcfc;
+  padding-left: 15px;
+}
+
+#isroLogo {
+  padding-top: 5px;
+}
+
+
+.homeZone {
+  /*float: left;*/
+  margin: auto;
+  padding: 5%;
+  /*width: 43%;
+  height: 320px;*/
+  /*position: relative;*/
+
+}
+
+.homeZone a {
+  position:absolute;
+  top:0;right:0;bottom:0;left:0;
+}
+
+
+.homeZone .thumbnail {
+  transition: transform 0.4s ease 0.1s, opacity 0.4s ease 0.1s;
+  box-shadow: 0 20px 21px 0 rgba(0, 0, 0, .2), 0 30px 60px 0 rgba(0, 0, 0, .22);
+  transform: scale(1);
+}
+
+.homeZone .thumbnail:hover {
+  transition: transform 0.4s ease 0.1s, opacity 0.4s ease 0.1s;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+  transform: scale(0.9);
+}
+
+hr {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+}
+
+hr:after {
+	content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: #232830;
+	color: #8c8b8b;
+	font-size: 15px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+
+.navbar-inverse {
+  background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand:hover{
+  border-bottom: 1px solid white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  border-bottom: 1px solid white;
+}
