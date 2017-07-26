@@ -1,0 +1,18 @@
+body {
+  background: rgb(35, 40, 48);
+  text-align: justify;
+}
+
+#whyTitle {
+  color: #fcfcfc;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-bottom: 22px;
+}
+
+p {
+  color: #f2f2f2;
+  font-size: 1.3em;
+  letter-spacing: 1.8px;
+}

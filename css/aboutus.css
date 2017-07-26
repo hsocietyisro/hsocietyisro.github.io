@@ -76,3 +76,9 @@ body{
   border-style: 2px solid;
   border-radius: 30%;
 }
+
+.role {
+  line-height: 23px;
+  color: rgb(126, 129, 133);
+  font-size: 0.6em;
+}
